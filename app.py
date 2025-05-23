@@ -32,7 +32,7 @@ try:
 except ImportError:
     SCAPY_AVAILABLE = False
 
-st.set_page_config(page_title="🚀 Deep Cybersecurity ML Analyzer with Gemini", layout="wide")
+st.set_page_config(page_title="🚀 Deep Cybersecurity ML Analyzer ", layout="wide")
 
 @st.cache_data(show_spinner=False)
 def load_csv(file):
