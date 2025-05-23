@@ -191,7 +191,7 @@ def kb_report(df):
 
 # --- Основной UI ---
 
-st.title("🚀 Глубокий КБ и ML анализ сетевого трафика с Gemini")
+st.title(" КБ и ML анализ сетевого трафика")
 
 file_type = st.sidebar.selectbox("Тип файла", ["CSV", "PCAP"])
 uploaded_file = st.sidebar.file_uploader("Загрузите файл", type=["csv"] if file_type=="CSV" else ["pcap", "pcapng"])
